@@ -117,7 +117,7 @@ export default function Home() {
                                 <p className={regular.className}>
                                     Leia o 1º capitulo{" "}
                                     <strong className={bold.className}>
-                                        • Gratis
+                                        • Grátis
                                     </strong>
                                 </p>
                             </div>
