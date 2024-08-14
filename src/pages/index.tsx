@@ -4,6 +4,7 @@ import book from "@/../public/assets/enviesados.png";
 import background from "@/../public/assets/background.png";
 import backgroundCell from "@/../public/assets/background_cell.png";
 import { PiCertificateFill } from "react-icons/pi";
+import perfil from "../../public/assets/perfil.jpg";
 import { MdBusinessCenter } from "react-icons/md";
 
 const bold = Asap({ weight: "800", subsets: ["latin"] });
@@ -49,9 +50,7 @@ export default function Home() {
                             <div
                                 className={`line-center w-40 border-4 border-mainDark-500 h-40 rounded-full overflow-hidden`}
                             >
-                                <img
-                                    src={`https://media.licdn.com/dms/image/D4D03AQGXpASZ6LTV4w/profile-displayphoto-shrink_200_200/0/1672064632043?e=1721865600&v=beta&t=lmhec9tYvxdcA3-rJ79RIkkBaAo1OYRzWrBp2TUBaoo`}
-                                />
+                                <img src={perfil.src} />
                             </div>
                         </div>
                         <div className="text-lg h-full line-left gap-4 pt-2 flex-col items-center sm:items-start text-mainDark-500">
